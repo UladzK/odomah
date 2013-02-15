@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+	<head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Future Odomah</title>
+    </head>
+
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div id="header_top">
+					<ul>
+						<li><a href="#">Вход</a></li>
+						<li><a href="#">Вход vk.com</a></li>
+						<li><a href="#">Регистрация</a></li>
+					</ul>
+				</div><!-- end of header_top-->
+
+				<div id="header_bot">
+					<h1> Odomah </h1>
+					<ul>
+						<li><a href="#">Дома</a></li>
+						<li><a href="#">Статьи</a></li>
+						<li><a href="#">Форум</a></li>
+						<li><a href="#">Поиск</a></li>
+					</ul>
+					<div id="peop_talk">
+						<h2>Люди говорят о домах. Присоединяйтесь.
+							<a href="#">Написать отзыв</a>
+						</h2>
+					</div><!-- end of peop_talk-->
+
+						<div id="main_bg">
+							<img src="img/pic_bg.gif" />
+						</div><!-- end of main_bg-->
+				</div><!-- end of header_bot-->		
+
+			</div><!-- end of header-->
+			<div id="main_post">
+				<a href="#">Последний отзыв</a>
+				<%= yield %>
+			</div><!-- end of main_post-->
+		</div><!-- end of wrap-->
+	</body>
+</html>
