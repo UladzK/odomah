@@ -1,0 +1,112 @@
+/*
+Odomah theme
+Version 1.0.0
+Author: http://jayjam.net
+*/
+
+/* size:
+	body = 
+	wrap = 1152
+	height header_top = 91px
+	height header_bot = 81px
+	width header_bot = 987px
+	height side_bar = 162px
+	width side_bar = 576px
+	yield height = 298px
+	height header_pic = 504px
+	height footer_top = 333px
+	height footer_bot = 42px
+
+*/
+
+/* colors:
+	header_top = #efefef
+	header_bot = #ffffff
+	footer_bot = #2525256+5
+*/
+@import url("reset.css");
+
+/* General styles:*/
+
+html{
+	height: 100%
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #4f5259;
+	min-height: 100%;
+	padding-top: 25px;
+}
+
+p{
+	font-size: 14px;
+	color:#4f5259;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+	color: #868686;
+	font-size:14px;
+}
+
+a:hover{
+	text-decoration: underline;
+	outline: none;
+	font-size:14px;	
+}
+
+code{
+	font-family: "Courier New", Courier, monospace;
+	color: #000;
+}
+
+blockquote{
+	font-family: italic;
+	background: #ccc;
+	margin-left: 20px;
+}
+
+#wrap{
+	width: 1152px;
+	/*background: #ededed;*/
+	margin: 0 auto;
+
+}
+
+/*header*/
+
+#header{
+	background: #ededed; 
+}
+
+#header_top{
+	height: 91px;
+}
+
+#header_bot{
+	height: 81px;
+	width: 987px;
+}
+
+/*Navigation:*/
+
+#header ul{
+	float:right;
+	margin: 23px 120px 0 34px;
+}
+#header_bot
+/*
+#header ul li{
+	float: left;
+	padding-left: 10px;
+}
+
+#header ul li a:hover{
+	height: 41px;
+	display: block;
+	text-decoration: none;
+	background: url();
+*/
