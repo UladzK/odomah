@@ -37,7 +37,7 @@ body{
 	font-size: 14px;
 	color: #4f5259;
 	min-height: 100%;
-	padding-top: 25px;
+	padding-top: 0px;
 }
 
 p{
@@ -71,12 +71,11 @@ blockquote{
 
 #wrap{
 	width: 1152px;
-	/*background: #ededed;*/
 	margin: 0 auto;
-
+	position: relative;
 }
 
-/*header*/
+/*Header*/
 
 #header{
 	background: #ededed; 
@@ -86,27 +85,151 @@ blockquote{
 	height: 91px;
 }
 
-#header_bot{
-	height: 81px;
-	width: 987px;
+#header_top ul{
+	float: right;
 }
 
-/*Navigation:*/
+#header_top ul li{
+	float: left;
+	margin: 25px;
+}
 
-#header ul{
+/*Header_bot Navigation:*/
+
+#header_bot{
+	position: relative;
+	background: #ededed;
+	width: 987px;
+	left: 85px;
+	border-style: solid;
+	border-width: medium;
+	z-index: 10;
+	bottom: 40px;
+}
+
+#header_bot ul{
+	float: right;
+}
+
+#header_bot ul li{
+	float: left;
+	margin: 30px;
+}
+
+#header_bot ul li a:hover {
+	height: 41px;
+	display:block;
+	text-decoration: none;
+	background: url(img/orange_b.png) no-repeat top;
+
+}
+
+/*Pre Content:*/
+
+#peop_talk{
+	position: relative;
+	display: inline-block;
+	top: 50px;
+	left: 766px;
+	height: 100px;
+	width: 380px;
+
+	background: #ededed;
+	border-style: solid;
+	border-width: medium;
+	z-index: 10;
+}
+
+#peop_talk a{
+	background-image: url(img/new_post.png);
+}
+
+#main_bg{
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+}
+
+/*
+
+#peop_talk{
+	height: 162px;
+	width: 576px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+*/
+
+/*#header ul{
 	float:right;
 	margin: 23px 120px 0 34px;
 }
+
 #header_bot
-/*
+
 #header ul li{
 	float: left;
 	padding-left: 10px;
+}*/
+
+/*#plashechka ul li a{
+	height:41px;
+	display:block;
 }
 
-#header ul li a:hover{
+#plashechka ul li a:hover{
 	height: 41px;
 	display: block;
 	text-decoration: none;
-	background: url();
-*/
+	background: url(img/houses.png);
+}*/
+
+/* Content:*/
+
+#content{
+	position: relative;
+	border-style: solid;
+	border-width: medium;
+	top: 323px;
+	height: 298px;
+}
+
+#last_comment{
+	float: left;
+	margin: 5px;
+	margin-left: 10px;
+}
+
+
+#last_post{
+	float: right;
+
+	margin: 5px;
+	margin-right: 10px;
+}
+
+
+/*Footer:*/
+#footer{
+	position: relative;
+	background: orange;
+	top: 323px;
+}
+
+#footer_top{
+	height: 333px;
+	background: url(img/about.png);
+	
+}
+
+#footer_bot{
+	background: #373737;
+	height: 24px;
+}
+
+#footer_bot p{
+	float: right;
+	margin: 5px;
+}

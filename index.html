@@ -18,29 +18,35 @@
 				</div><!-- end of header_top-->
 
 				<div id="header_bot">
-					<h1> Odomah </h1>
-					<ul>
-						<li><a href="#">Дома</a></li>
-						<li><a href="#">Статьи</a></li>
-						<li><a href="#">Форум</a></li>
-						<li><a href="#">Поиск</a></li>
-					</ul>
-					<div id="peop_talk">
-						<h2>Люди говорят о домах. Присоединяйтесь.
-							<a href="#">Написать отзыв</a>
-						</h2>
-					</div><!-- end of peop_talk-->
-
-						<div id="main_bg">
-							<img src="img/pic_bg.gif" />
-						</div><!-- end of main_bg-->
-				</div><!-- end of header_bot-->		
-
+							<img src="img/odomah.png">
+							<ul>
+								<li> <a href="#">Дома</a></li>
+								<li> <a href="#">Статьи</a></li>
+								<li> <a href="#">Форум</a></li>
+								<li> <a href="#">Поиск</a></li>
+							</ul>
+				</div><!-- end of header_bot-->
 			</div><!-- end of header-->
 
+			<div id="pre_content">
+					<div id="peop_talk">
+							<h2>Люди говорят о домах.</h2>
+							<h2>Присоединяйтесь.</h2>
+							<h2><a href="#">Написать отзыв</a><h2>
+					</div><!-- end of peop_talk-->
+
+					<div id="main_bg">
+							<img src="img/pic_bg.gif" />
+					</div><!-- end of main_bg-->	
+			</div>
+
 			<div id="content">
-				<a href="#">Последний отзыв</a>
-				<a href="#">Последняя статья</a></br>
+				<div id="last_comment">		
+					<a href="#">Последний отзыв</a>
+				</div>
+				<div id="last_post">
+					<a href="#">Последняя статья</a>
+				</div>
 				<%= yield %>
 			</div><!-- end of content-->
 			<div id="footer">
